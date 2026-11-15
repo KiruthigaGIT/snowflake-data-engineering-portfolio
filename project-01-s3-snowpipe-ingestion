@@ -1,0 +1,3 @@
+# Project 01 - AWS S3 to Snowflake Automated Data Ingestion
+
+This project demonstrates an automated data ingestion pipeline using AWS S3, Snowflake Storage Integration, External Stage, and Snowpipe.
