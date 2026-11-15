@@ -1,1 +1,112 @@
+❄️ Snowflake Data Engineering Portfolio
 
+## 👋 About Me
+
+ETL and Data Integration professional with 5 years of experience, including DataStage production support and ETL development. Currently expanding my expertise into modern cloud data engineering with Snowflake and AWS.
+
+This repository contains hands-on Snowflake projects demonstrating practical experience with data ingestion, transformation, automation, and data warehouse concepts.
+
+---
+
+## 🛠️ Technologies & Skills
+
+- Snowflake
+- SQL
+- AWS S3
+- Snowpipe
+- Streams
+- Tasks
+- External Stages
+- Storage Integrations
+- Data Warehousing
+- ETL / ELT
+- Zero-Copy Cloning
+- Time Travel
+
+---
+
+## 📂 Projects
+
+### 🚀 Project 1: Automated Data Ingestion using AWS S3 and Snowpipe
+
+Built an automated data ingestion pipeline to load files from AWS S3 into Snowflake.
+
+**Architecture:**
+
+AWS S3 → Storage Integration → External Stage → Snowpipe → Snowflake RAW Table
+
+**Key Skills:**
+- AWS S3 integration
+- Storage Integration
+- External Stage
+- File Formats
+- Snowpipe
+- Automated data ingestion
+
+---
+
+### 🔄 Project 2: Incremental Data Processing using Streams and Tasks
+
+Implemented incremental data processing using Snowflake Streams and Tasks.
+
+**Architecture:**
+
+Source Table → Stream → Task → Target Table
+
+**Key Skills:**
+- Change Data Capture
+- Streams
+- Tasks
+- Automated processing
+- Incremental loading
+
+---
+
+### 🏗️ Project 3: Retail Data Warehouse
+
+Designed a multi-layer data warehouse using RAW, STAGING, CURATED, and ANALYTICS layers.
+
+**Key Skills:**
+- Data modelling
+- SQL transformations
+- Data quality checks
+- Joins and aggregations
+- Analytical reporting
+
+---
+
+### 🔁 Project 4: DataStage ETL to Snowflake Migration
+
+A practical project demonstrating how traditional ETL concepts can be modernized using Snowflake and AWS.
+
+**Concept Mapping:**
+
+| Traditional ETL / DataStage | Snowflake Approach |
+|---|---|
+| Transformer | SQL Transformations |
+| Lookup | JOIN |
+| Sequence Job | Tasks |
+| Incremental Load | Streams |
+| Scheduler | Tasks |
+| File Ingestion | Snowpipe |
+
+---
+
+## 🎯 Learning Objective
+
+The purpose of this repository is to demonstrate practical hands-on experience in building modern cloud-based data pipelines using Snowflake and AWS.
+
+---
+
+## 📌 Future Enhancements
+
+- Dynamic Tables
+- Snowflake Data Quality Framework
+- CI/CD Integration
+- dbt
+- AWS Glue Integration
+- Advanced Performance Optimization
+
+---
+
+⭐ Feel free to explore the individual projects and SQL scripts.
